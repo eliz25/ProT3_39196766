@@ -1,0 +1,150 @@
+CRITICAL - 2025-06-26 03:11:13 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 246.
+ 1 SYSTEMPATH\CodeIgniter.php(246): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(210): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2025-06-26 03:11:13 --> Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\yeny\system\Helpers\number_helper.php:136
+Stack trace:
+#0 C:\xampp\htdocs\yeny\system\Helpers\number_helper.php(55): format_number(4.0, 2, NULL, Array)
+#1 C:\xampp\htdocs\yeny\system\Debug\BaseExceptionHandler.php(145): number_to_size(4.0, 2)
+#2 C:\xampp\htdocs\yeny\app\Views\errors\html\error_exception.php(360): CodeIgniter\Debug\BaseExceptionHandler::describeMemory(4194304)
+#3 C:\xampp\htdocs\yeny\system\Debug\BaseExceptionHandler.php(241): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\yeny\system\Debug\BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#5 C:\xampp\htdocs\yeny\system\Debug\ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render(Object(CodeIgniter\Exceptions\FrameworkException), 500, 'C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\yeny\system\Debug\Exceptions.php(146): CodeIgniter\Debug\ExceptionHandler->handle(Object(CodeIgniter\Exceptions\FrameworkException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\FrameworkException))
+#8 {main}
+  thrown
+【Previous Exception】
+CodeIgniter\Exceptions\FrameworkException
+The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\yeny\system\CodeIgniter.php(246): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\yeny\system\CodeIgniter.php(210): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\yeny\index.php(67): CodeIgniter\CodeIgniter->initialize()
+#3 {main}
+in SYSTEMPATH\Helpers\number_helper.php on line 136.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-06-26 03:12:26 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 246.
+ 1 SYSTEMPATH\CodeIgniter.php(246): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(210): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2025-06-26 03:12:26 --> Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\yeny\system\Helpers\number_helper.php:136
+Stack trace:
+#0 C:\xampp\htdocs\yeny\system\Helpers\number_helper.php(55): format_number(4.0, 2, NULL, Array)
+#1 C:\xampp\htdocs\yeny\system\Debug\BaseExceptionHandler.php(145): number_to_size(4.0, 2)
+#2 C:\xampp\htdocs\yeny\app\Views\errors\html\error_exception.php(360): CodeIgniter\Debug\BaseExceptionHandler::describeMemory(4194304)
+#3 C:\xampp\htdocs\yeny\system\Debug\BaseExceptionHandler.php(241): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\yeny\system\Debug\BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#5 C:\xampp\htdocs\yeny\system\Debug\ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render(Object(CodeIgniter\Exceptions\FrameworkException), 500, 'C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\yeny\system\Debug\Exceptions.php(146): CodeIgniter\Debug\ExceptionHandler->handle(Object(CodeIgniter\Exceptions\FrameworkException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\FrameworkException))
+#8 {main}
+  thrown
+【Previous Exception】
+CodeIgniter\Exceptions\FrameworkException
+The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\yeny\system\CodeIgniter.php(246): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\yeny\system\CodeIgniter.php(210): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\yeny\index.php(67): CodeIgniter\CodeIgniter->initialize()
+#3 {main}
+in SYSTEMPATH\Helpers\number_helper.php on line 136.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-06-26 03:12:26 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 246.
+ 1 SYSTEMPATH\CodeIgniter.php(246): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(210): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2025-06-26 03:12:26 --> Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\yeny\system\Helpers\number_helper.php:136
+Stack trace:
+#0 C:\xampp\htdocs\yeny\system\Helpers\number_helper.php(55): format_number(4.0, 2, NULL, Array)
+#1 C:\xampp\htdocs\yeny\system\Debug\BaseExceptionHandler.php(145): number_to_size(4.0, 2)
+#2 C:\xampp\htdocs\yeny\app\Views\errors\html\error_exception.php(360): CodeIgniter\Debug\BaseExceptionHandler::describeMemory(4194304)
+#3 C:\xampp\htdocs\yeny\system\Debug\BaseExceptionHandler.php(241): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\yeny\system\Debug\BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#5 C:\xampp\htdocs\yeny\system\Debug\ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render(Object(CodeIgniter\Exceptions\FrameworkException), 500, 'C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\yeny\system\Debug\Exceptions.php(146): CodeIgniter\Debug\ExceptionHandler->handle(Object(CodeIgniter\Exceptions\FrameworkException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\FrameworkException))
+#8 {main}
+  thrown
+【Previous Exception】
+CodeIgniter\Exceptions\FrameworkException
+The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\yeny\system\CodeIgniter.php(246): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\yeny\system\CodeIgniter.php(210): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\yeny\index.php(67): CodeIgniter\CodeIgniter->initialize()
+#3 {main}
+in SYSTEMPATH\Helpers\number_helper.php on line 136.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-06-26 03:12:26 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 246.
+ 1 SYSTEMPATH\CodeIgniter.php(246): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(210): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2025-06-26 03:12:27 --> Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\yeny\system\Helpers\number_helper.php:136
+Stack trace:
+#0 C:\xampp\htdocs\yeny\system\Helpers\number_helper.php(55): format_number(4.0, 2, NULL, Array)
+#1 C:\xampp\htdocs\yeny\system\Debug\BaseExceptionHandler.php(145): number_to_size(4.0, 2)
+#2 C:\xampp\htdocs\yeny\app\Views\errors\html\error_exception.php(360): CodeIgniter\Debug\BaseExceptionHandler::describeMemory(4194304)
+#3 C:\xampp\htdocs\yeny\system\Debug\BaseExceptionHandler.php(241): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\yeny\system\Debug\BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#5 C:\xampp\htdocs\yeny\system\Debug\ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render(Object(CodeIgniter\Exceptions\FrameworkException), 500, 'C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\yeny\system\Debug\Exceptions.php(146): CodeIgniter\Debug\ExceptionHandler->handle(Object(CodeIgniter\Exceptions\FrameworkException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\FrameworkException))
+#8 {main}
+  thrown
+【Previous Exception】
+CodeIgniter\Exceptions\FrameworkException
+The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\yeny\system\CodeIgniter.php(246): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\yeny\system\CodeIgniter.php(210): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\yeny\index.php(67): CodeIgniter\CodeIgniter->initialize()
+#3 {main}
+in SYSTEMPATH\Helpers\number_helper.php on line 136.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-06-26 03:15:02 --> The framework needs the following extension(s) installed and loaded: intl.
+in SYSTEMPATH\CodeIgniter.php on line 246.
+ 1 SYSTEMPATH\CodeIgniter.php(246): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+ 2 SYSTEMPATH\CodeIgniter.php(210): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->initialize()
+CRITICAL - 2025-06-26 03:15:02 --> Uncaught Error: Class "Locale" not found in C:\xampp\htdocs\yeny\system\Helpers\number_helper.php:136
+Stack trace:
+#0 C:\xampp\htdocs\yeny\system\Helpers\number_helper.php(55): format_number(4.0, 2, NULL, Array)
+#1 C:\xampp\htdocs\yeny\system\Debug\BaseExceptionHandler.php(145): number_to_size(4.0, 2)
+#2 C:\xampp\htdocs\yeny\app\Views\errors\html\error_exception.php(360): CodeIgniter\Debug\BaseExceptionHandler::describeMemory(4194304)
+#3 C:\xampp\htdocs\yeny\system\Debug\BaseExceptionHandler.php(241): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\yeny\system\Debug\BaseExceptionHandler.php(244): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#5 C:\xampp\htdocs\yeny\system\Debug\ExceptionHandler.php(109): CodeIgniter\Debug\BaseExceptionHandler->render(Object(CodeIgniter\Exceptions\FrameworkException), 500, 'C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\yeny\system\Debug\Exceptions.php(146): CodeIgniter\Debug\ExceptionHandler->handle(Object(CodeIgniter\Exceptions\FrameworkException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#7 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\FrameworkException))
+#8 {main}
+  thrown
+【Previous Exception】
+CodeIgniter\Exceptions\FrameworkException
+The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\yeny\system\CodeIgniter.php(246): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\yeny\system\CodeIgniter.php(210): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\yeny\index.php(67): CodeIgniter\CodeIgniter->initialize()
+#3 {main}
+in SYSTEMPATH\Helpers\number_helper.php on line 136.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2025-06-26 01:23:49 --> session_start(): Failed to decode session object. Session has been destroyed
+in SYSTEMPATH\Session\Session.php on line 919.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'session_start(): Failed to decode session object. Session has been destroyed', 'C:\\xampp\\htdocs\\yeny\\system\\Session\\Session.php', 919)
+ 2 SYSTEMPATH\Session\Session.php(919): session_start()
+ 3 SYSTEMPATH\Session\Session.php(241): CodeIgniter\Session\Session->startSession()
+ 4 SYSTEMPATH\Config\Services.php(692): CodeIgniter\Session\Session->start()
+ 5 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::session(Object(Config\Session), false)
+ 6 SYSTEMPATH\Config\BaseService.php(199): CodeIgniter\Config\BaseService::__callStatic('session', [...])
+ 7 SYSTEMPATH\Config\Services.php(663): CodeIgniter\Config\BaseService::getSharedInstance('session', null)
+ 8 SYSTEMPATH\Config\BaseService.php(258): CodeIgniter\Config\Services::session()
+ 9 SYSTEMPATH\Common.php(996): CodeIgniter\Config\BaseService::__callStatic('session', [])
+10 APPPATH\Views\front\navbar.php(2): session()
+11 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\yeny\\app\\Views\\front\\navbar.php')
+12 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+13 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('front/navbar', [], true)
+14 APPPATH\Controllers\Home.php(11): view('front/navbar')
+15 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Home->index()
+16 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+17 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+18 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
